@@ -1,0 +1,10 @@
+package ch05;
+
+public class personTest {
+
+	public static void main(String[] args) {
+		person mrchoi = new person(180, 83, "남성", "mrchoi", 26);
+		mrchoi.showpersonInfo();
+	}
+
+}

@@ -1,0 +1,24 @@
+package ch05;
+
+public class person {
+	int t;
+	int kg;
+	String n;
+	String name;
+	int age;
+
+
+public person() {
+	
+}
+public person(int t, int kg, String n, String name, int age) {
+	this.t = t;
+	this.kg = kg;
+	this.n = n;
+	this.name = name;
+	this.age = age;
+}
+public void showpersonInfo() {
+	System.out.println("키는 "+t+" 몸무게는 "+kg+"kg 성별은 "+n+" 이름은 "+name+" 나이는 "+age+"세 입니다.");
+}
+}

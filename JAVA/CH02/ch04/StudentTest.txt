@@ -1,0 +1,19 @@
+package ch04;
+
+public class StudentTest {
+
+	public static void main(String[] args) {
+		Student mrchoi = new Student(1, "mrchoi", 100);
+		Student kim = new Student():
+		kim.grade = 2;
+		kim.name = "kim";
+		kim.number = 5;
+		/*
+		mrchoi.grade = 1;
+		mrchoi.name = "mrchoi";
+		mrchoi.number = 100; */
+		mrchoi.showStudentInfo();
+
+	}
+
+}

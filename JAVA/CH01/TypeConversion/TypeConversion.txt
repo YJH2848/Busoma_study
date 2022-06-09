@@ -1,0 +1,15 @@
+package ch08;
+
+public class TypeConversion {
+	public static void main(String[] args) {
+		
+		double NUM = 1.2;
+		float FNUM = 0.9F;
+		
+		int iNUM1 = (int)NUM + (int)FNUM;
+		System.out.println(iNUM1);
+		
+		int iNUM2 = (int)(NUM + FNUM);
+		System.out.println(iNUM2);
+	}
+}

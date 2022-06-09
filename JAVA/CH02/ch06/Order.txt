@@ -1,0 +1,38 @@
+package ch06;
+
+public class Order {
+	String number;
+	String pn;
+	String add;
+	String d;
+	String t;
+	String w;
+	String name;
+	String num;
+	
+
+public Order() {
+	
+}
+public Order(String number, String pn, String add, String d, String t, String w, String name, String num) {
+	this.number = number;
+	this.pn = pn;
+	this.add = add;
+	this.d = d;
+	this.t = t;
+	this.w = w;
+	this.name = name;
+	this.num = num;
+}
+public void showOrderInfo() {
+	System.out.println("주문접수 번호 : "+number);
+	System.out.println("주문핸드폰 번호 : "+pn);
+	System.out.println("주문 집 주소 : "+add);
+	System.out.println("주문 날짜 : "+d);
+	System.out.println("주문 시간 : "+t);
+	System.out.println("주문 가격 : "+w);
+	System.out.println("메뉴 이름 : "+name);
+	System.out.println("메뉴 번호 : "+num);
+	
+}
+}s
