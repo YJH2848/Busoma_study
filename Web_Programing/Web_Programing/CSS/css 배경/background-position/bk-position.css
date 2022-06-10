@@ -1,0 +1,8 @@
+body{
+    background-image: url("bk-image.jpg");
+    background-repeat: no-repeat;
+    /* background-position: top left; 이런식으로도 줄수있고*/
+    background-position: 50% -10% ;
+                       /*좌우 위아래 */
+    /* 이런식으로도 줄수 있다. (%, px)*/
+}

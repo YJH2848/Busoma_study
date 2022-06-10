@@ -1,0 +1,18 @@
+*{
+    text-align: center;
+}
+input{
+    border-radius: 5px;
+    border: 3px solid blue;
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+}
+hr{
+    margin-bottom: 50px;
+
+}
+h1{
+    margin-left: -20px;
+    
+}

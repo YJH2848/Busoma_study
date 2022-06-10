@@ -1,0 +1,13 @@
+h2{
+    text-decoration: overline;
+}
+h3{
+    text-decoration: line-through;
+}
+h4{
+    text-decoration: underline;
+}
+a{
+    text-decoration: none;
+    /* none으로 밑줄을 제거하는 역할 */
+}

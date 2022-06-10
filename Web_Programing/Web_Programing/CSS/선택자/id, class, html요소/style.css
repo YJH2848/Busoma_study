@@ -1,0 +1,15 @@
+h1{
+    color: red;
+    text-decoration: underline;
+    /* underline은 아래에 선을 긋는다 */
+}
+#heading{
+    color: red;
+    text-decoration: line-through; 
+    /* line-thorough는 중간에 선을 긋는다 */
+}
+.coding{
+    color: red;
+    text-decoration: overline;
+    /* overline은 위에다 선을 긋는다 */
+}

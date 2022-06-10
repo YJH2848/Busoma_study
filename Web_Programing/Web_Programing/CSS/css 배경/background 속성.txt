@@ -1,0 +1,9 @@
+1. background-color
+
+2. background-image
+
+3. background-repeat
+
+4. background-position
+
+5. background-attachment

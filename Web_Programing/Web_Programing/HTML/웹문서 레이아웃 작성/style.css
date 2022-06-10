@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    display: block;
+    padding: 20px;
+    margin: 0 20px;
+    border: 1px solid #222;
+}
+img{
+    float: left;
+    margin-right: 40px;
+    border: 1px solid black;
+}
+div{
+    padding: 20px;
+    margin: 10px;
+}
+#box1{
+    background: yellow;
+    float: left;
+}
+#box2{
+    background: lightskyblue;
+    float: left;
+}
+#box3{
+    background: greenyellow;
+}
+#box4
+{
+    background: mediumslateblue;
+      clear: left;
+}

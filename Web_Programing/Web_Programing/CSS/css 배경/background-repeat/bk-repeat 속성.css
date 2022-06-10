@@ -1,0 +1,5 @@
+body{
+    background-image: url("bk-repeat 속성.jpg");
+    background-repeat: repeat-x; /*repeat-x는 x축으로 반복해서 보여줌*/
+    
+}

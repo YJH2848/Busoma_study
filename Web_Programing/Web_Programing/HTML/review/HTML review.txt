@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      table, td, th{
+        border:1px solid;
+      }
+      td, th{
+        padding:10px 50px;
+      }
+    </style>
+    <meta charset="utf-8">
+    <title>html 태그 공부 하는 </title>
+  </head>
+  <body>
+    <form>
+    <fieldset><!--로그인 관련 태그-->
+      <legend><strong>회원정보</strong></legend>
+      <p>아이디 <input type="text"></p>
+      비밀번호 <input type = "text">
+    </fieldset><!--로그인 관련 태그-->
+    </form>
+    <p><a href="https://www.youtube.com/c/%EC%83%9D%ED%99%9C%EC%BD%94%EB%94%A91" target="_blank">html공부하는 곳</a></p>
+    <p>이미지</p>
+    <img src="img/태그.jpg" width="150"><!--이미지 태그-->
+    <p>동영상</p>
+    <video src="영상링크" controls width="크기"></video><!--영상업로드 태그-->
+    <p>음악</p>
+    <audio src="음악링크" controls></audio><!--음악업로드 태그-->
+    <marquee direction=right>나는 오른쪽으로~</marquee>
+    <marquee behavior=alternate>나는 왼쪽~ 오른쪽~ 둘다~</marquee>
+    <marquee direction=up>나는 위로~</marquee>
+    <marquee direction=down>나는 아래로~</marquee>
+    <marquee scrollamount=100>100만큼의 속도로 간다!</marquee>
+    <p>표</p>
+    <h2>가장 많이 사용하느 태그</h2>
+    <table>
+      <caption><h2></h2>태그 순위표</caption>
+      <tr>
+        <td>1위</td>
+        <td>html</td>
+      </tr>
+      <tr>
+        <td>2위</td>
+        <td>head</td>
+      </tr>
+      <tr>
+        <td>3위</td>
+        <td>body</td>
+      </tr>
+    </table>
+  </body>
+</html>
